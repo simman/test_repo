@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.palmid.sdk.bridge",
+    "module": "bridge",
+    "version": "7-1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.palmid.embed_app",
+          "module": "flutter_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bridge-7-1.0.aar",
+          "url": "bridge-7-1.0.aar",
+          "size": 55075,
+          "sha512": "495d0bde166798491c357d799c45b4271d54fcd48e9e029b650d79485395ec989c78d8052176f9f032a37778877ed6dbaffb4ecb296755b3c6f7924393b67fe2",
+          "sha256": "9a593cd407f06e4c0d320a2c8eabb335e8123532daa32ae217f484361ee47eac",
+          "sha1": "cbd3dfb1589adeea2ab0574e4d1d3a288b88afb2",
+          "md5": "7fa16a87075a40324923cc2409b979aa"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.palmid.embed_app",
+          "module": "flutter_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bridge-7-1.0.aar",
+          "url": "bridge-7-1.0.aar",
+          "size": 55075,
+          "sha512": "495d0bde166798491c357d799c45b4271d54fcd48e9e029b650d79485395ec989c78d8052176f9f032a37778877ed6dbaffb4ecb296755b3c6f7924393b67fe2",
+          "sha256": "9a593cd407f06e4c0d320a2c8eabb335e8123532daa32ae217f484361ee47eac",
+          "sha1": "cbd3dfb1589adeea2ab0574e4d1d3a288b88afb2",
+          "md5": "7fa16a87075a40324923cc2409b979aa"
+        }
+      ]
+    }
+  ]
+}
